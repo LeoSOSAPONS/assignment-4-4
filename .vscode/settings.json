@@ -1,0 +1,33 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "test",
+            "database": "assignment",
+            "username": "leoso",
+            "password": ""
+        }
+    ]
+}INSERT INTO users (
+    id,
+    username,
+    password,
+    email,
+    firstname,
+    lastname
+  )
+VALUES (
+    id:int,
+    'username:varchar',
+    'password:varchar',
+    'email:varchar',
+    'firstname:varchar',
+    'lastname:varchar'
+  );
